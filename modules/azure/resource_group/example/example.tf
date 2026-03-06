@@ -7,6 +7,6 @@ module "azurerm_resource_group_example" {
   name     = "example"
   location = "southeastasia"
   tags     = {
-    "project" : "example"
+    "example" : "example"
   }
 }
