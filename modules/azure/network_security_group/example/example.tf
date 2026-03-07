@@ -5,7 +5,7 @@ module "azurerm_network_security_group_example" {
   source = "git::https://github.com/Anmewzaa/infrastructure-terraform-modules//modules/azure/network_security_group"
 
   name                = "example"
-  resource_group_name = "example"
+  resource_group_name = data.azurerm_resource_group.example.name
 
   security_rules = [
     {

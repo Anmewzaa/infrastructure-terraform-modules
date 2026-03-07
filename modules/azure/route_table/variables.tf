@@ -25,6 +25,6 @@ variable "routes" {
 }
 variable "tags" {
   type        = map(string)
-  description = "(Optional) A mapping of tags which should be assigned to the Resource Group."
+  description = "(Optional) A mapping of tags to assign to the resource."
   default     = {}
 }
