@@ -9,7 +9,7 @@ module "azurerm_network_security_group_example" {
 
   security_rules = [
     {
-      name                       = "example"
+      name                       = "allow-all"
       priority                   = 100
       direction                  = "Inbound"
       access                     = "Allow"

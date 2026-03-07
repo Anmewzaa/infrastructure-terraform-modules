@@ -8,11 +8,11 @@ module "azurerm_network_security_group_example" {
   resource_group_name = "example"
 
   routes = [
-    {
-      name           = "route1"
-      address_prefix = "10.1.0.0/16"
-      next_hop_type  = "VnetLocal"
-    }
+    # {
+    #   name           = "example"
+    #   address_prefix = "10.1.0.0/16"
+    #   next_hop_type  = "VnetLocal"
+    # }
   ]
 
   tags     = {

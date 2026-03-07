@@ -13,6 +13,8 @@ resource "azurerm_virtual_network" "this" {
     content {
       name             = subnet.value.name
       address_prefixes = subnet.value.address_prefixes
+      security_group   = subnet.value.security_group
+      route_table_id   = subnet.value.route_table_id
     }
   }
 

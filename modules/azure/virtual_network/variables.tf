@@ -25,6 +25,8 @@ variable "subnets" {
   type = list(object({
     name             = string
     address_prefixes = list(string)
+    security_group   = optional(string)
+    route_table_id   = optional(string)
   }))
 }
 variable "tags" {
