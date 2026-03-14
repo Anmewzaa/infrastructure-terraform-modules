@@ -34,3 +34,8 @@ variable "tags" {
   description = "(Optional) A mapping of tags to assign to the resource."
   default     = {}
 }
+variable "dns_servers" {
+  description = "List of DNS servers to use for the virtual network."
+  type        = list(string)
+  default     = []
+}
