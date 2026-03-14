@@ -19,4 +19,8 @@ resource "azurerm_virtual_network" "this" {
   }
 
   tags = var.tags
+
+  depends_on = [ 
+    azurerm_resource_group.this 
+  ]
 }
