@@ -16,4 +16,4 @@
 | `azurerm_key_vault`              | Module for creating Azure Key Vault                               | [Link](./modules/azure/key_vault)              |
 | `azurerm_cognitive_account`      | Module for creating Azure Cognitive Services Account              | [Link](./modules/azure/cognitive_account)      |
 | `azurerm_virtual_machine`        | Module for creating Azure Virtual Machines (Linux or Windows)    | [Link](./modules/azure/virtual_machine)        |
-| `azurerm_aks`                    | Module for creating Azure Kubernetes Service (with KMS support)  | [Link](./modules/azure/aks)                    |
+| `azurerm_kubernetes_cluster`     | Module for creating Azure Kubernetes Service (with KMS support)  | [Link](./modules/azure/kubernetes_cluster)     |

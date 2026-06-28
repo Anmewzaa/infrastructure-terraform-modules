@@ -1,8 +1,8 @@
 # ===========================================
 # Example : Azurerm Kubernetes Cluster
 # ===========================================
-module "azurerm_aks_example" {
-  source = "git::https://github.com/Anmewzaa/infrastructure-terraform-modules//modules/azure/aks"
+module "azurerm_kubernetes_cluster_example" {
+  source = "git::https://github.com/Anmewzaa/infrastructure-terraform-modules//modules/azure/kubernetes_cluster"
 
   name                = "example-aks"
   resource_group_name = data.azurerm_resource_group.example.name
