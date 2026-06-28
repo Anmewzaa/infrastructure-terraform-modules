@@ -17,3 +17,9 @@
 | `azurerm_cognitive_account`      | Module for creating Azure Cognitive Services Account              | [Link](./modules/azure/cognitive_account)      |
 | `azurerm_virtual_machine`        | Module for creating Azure Virtual Machines (Linux or Windows)    | [Link](./modules/azure/virtual_machine)        |
 | `azurerm_kubernetes_cluster`     | Module for creating Azure Kubernetes Service (with KMS support)  | [Link](./modules/azure/kubernetes_cluster)     |
+
+### huaweicloud
+
+| Module                              | Description                                       | Example                                              |
+| ----------------------------------- | -------------------------------------------------- | ------------------------------------------------------ |
+| `huaweicloud_enterprise_project`    | Module for creating Huawei Cloud Enterprise Projects | [Link](./modules/huaweicloud/enterprise_project)    |
