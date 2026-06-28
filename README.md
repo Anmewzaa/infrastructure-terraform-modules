@@ -23,3 +23,10 @@
 | Module                              | Description                                       | Example                                              |
 | ----------------------------------- | -------------------------------------------------- | ------------------------------------------------------ |
 | `huaweicloud_enterprise_project`    | Module for creating Huawei Cloud Enterprise Projects | [Link](./modules/huaweicloud/enterprise_project)    |
+
+### gcp
+
+| Module                       | Description                                                   | Example                                       |
+| ----------------------------- | --------------------------------------------------------------- | ------------------------------------------------ |
+| `google_compute_network`    | Module for creating GCP VPC Networks and Subnetworks         | [Link](./modules/gcp/compute_network)         |
+| `google_compute_firewall`   | Module for creating GCP Firewall Rules                        | [Link](./modules/gcp/compute_firewall)        |
