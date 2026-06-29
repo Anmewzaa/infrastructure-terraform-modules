@@ -30,3 +30,10 @@
 | ----------------------------- | --------------------------------------------------------------- | ------------------------------------------------ |
 | `google_compute_network`    | Module for creating GCP VPC Networks and Subnetworks         | [Link](./modules/gcp/compute_network)         |
 | `google_compute_firewall`   | Module for creating GCP Firewall Rules                        | [Link](./modules/gcp/compute_firewall)        |
+
+### tencentcloud
+
+| Module                              | Description                                                        | Example                                              |
+| ------------------------------------ | --------------------------------------------------------------------- | ------------------------------------------------------ |
+| `tencentcloud_vpc`                  | Module for creating Tencent Cloud VPCs                             | [Link](./modules/tencentcloud/vpc)                  |
+| `tencentcloud_security_group`       | Module for creating Tencent Cloud Security Groups (with ordered rule set) | [Link](./modules/tencentcloud/security_group)       |
