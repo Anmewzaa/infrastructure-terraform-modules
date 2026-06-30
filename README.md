@@ -17,6 +17,11 @@
 | `azurerm_cognitive_account`      | Module for creating Azure Cognitive Services Account              | [Link](./modules/azure/cognitive_account)      |
 | `azurerm_virtual_machine`        | Module for creating Azure Virtual Machines (Linux or Windows)    | [Link](./modules/azure/virtual_machine)        |
 | `azurerm_kubernetes_cluster`     | Module for creating Azure Kubernetes Service (with KMS support)  | [Link](./modules/azure/kubernetes_cluster)     |
+| `azurerm_service_plan`           | Module for creating Azure App Service Plans                       | [Link](./modules/azure/service_plan)           |
+| `azurerm_linux_web_app`          | Module for creating Azure Linux Web Apps                         | [Link](./modules/azure/linux_web_app)          |
+| `azurerm_container_registry`     | Module for creating Azure Container Registry (ACR)               | [Link](./modules/azure/container_registry)     |
+| `azurerm_log_analytics_workspace`| Module for creating Azure Log Analytics Workspaces               | [Link](./modules/azure/log_analytics_workspace)|
+| `azurerm_application_insights`   | Module for creating Azure Application Insights components        | [Link](./modules/azure/application_insights)   |
 
 ### huaweicloud
 
