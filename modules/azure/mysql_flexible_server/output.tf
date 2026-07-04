@@ -1,0 +1,12 @@
+# ===========================================
+# Output : Azurerm MySQL Flexible Server
+# ===========================================
+output "id" {
+  value = azurerm_mysql_flexible_server.this.id
+}
+output "name" {
+  value = azurerm_mysql_flexible_server.this.name
+}
+output "fqdn" {
+  value = azurerm_mysql_flexible_server.this.fqdn
+}
