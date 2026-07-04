@@ -22,6 +22,26 @@
 | `azurerm_container_registry`     | Module for creating Azure Container Registry (ACR)               | [Link](./modules/azure/container_registry)     |
 | `azurerm_log_analytics_workspace`| Module for creating Azure Log Analytics Workspaces               | [Link](./modules/azure/log_analytics_workspace)|
 | `azurerm_application_insights`   | Module for creating Azure Application Insights components        | [Link](./modules/azure/application_insights)   |
+| `azurerm_mssql_server`           | Module for creating Azure SQL Server (MSSQL)                     | [Link](./modules/azure/mssql_server)           |
+| `azurerm_mssql_database`         | Module for creating Azure SQL Database (MSSQL)                   | [Link](./modules/azure/mssql_database)         |
+| `azurerm_postgresql_flexible_server` | Module for creating Azure PostgreSQL Flexible Server         | [Link](./modules/azure/postgresql_flexible_server) |
+| `azurerm_mysql_flexible_server`  | Module for creating Azure MySQL Flexible Server                  | [Link](./modules/azure/mysql_flexible_server)  |
+| `azurerm_cosmosdb_account`       | Module for creating Azure Cosmos DB Account                      | [Link](./modules/azure/cosmosdb_account)       |
+| `azurerm_servicebus_namespace`   | Module for creating Azure Service Bus Namespace                  | [Link](./modules/azure/servicebus_namespace)   |
+| `azurerm_servicebus_queue`       | Module for creating Azure Service Bus Queue                      | [Link](./modules/azure/servicebus_queue)       |
+| `azurerm_servicebus_topic`       | Module for creating Azure Service Bus Topic                      | [Link](./modules/azure/servicebus_topic)       |
+| `azurerm_eventhub_namespace`     | Module for creating Azure Event Hub Namespace                    | [Link](./modules/azure/eventhub_namespace)     |
+| `azurerm_eventhub`               | Module for creating Azure Event Hub                              | [Link](./modules/azure/eventhub)               |
+| `azurerm_eventgrid_topic`        | Module for creating Azure Event Grid Topic                       | [Link](./modules/azure/eventgrid_topic)        |
+| `azurerm_public_ip`              | Module for creating Azure Public IP Addresses                    | [Link](./modules/azure/public_ip)              |
+| `azurerm_nat_gateway`            | Module for creating Azure NAT Gateways                           | [Link](./modules/azure/nat_gateway)            |
+| `azurerm_lb`                     | Module for creating Azure Load Balancers                         | [Link](./modules/azure/lb)                     |
+| `azurerm_application_gateway`    | Module for creating Azure Application Gateways                   | [Link](./modules/azure/application_gateway)    |
+| `azurerm_firewall`               | Module for creating Azure Firewalls                              | [Link](./modules/azure/firewall)               |
+| `azurerm_bastion_host`           | Module for creating Azure Bastion Hosts                          | [Link](./modules/azure/bastion_host)           |
+| `azurerm_subscription_policy_assignment` | Module for assigning Azure Policy at Subscription scope  | [Link](./modules/azure/subscription_policy_assignment) |
+| `azurerm_monitor_action_group`   | Module for creating Azure Monitor Action Groups                  | [Link](./modules/azure/monitor_action_group)   |
+| `azurerm_monitor_metric_alert`   | Module for creating Azure Monitor Metric Alerts                  | [Link](./modules/azure/monitor_metric_alert)   |
 
 ### huaweicloud
 
