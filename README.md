@@ -22,6 +22,23 @@
 | `azurerm_container_registry`     | Module for creating Azure Container Registry (ACR)               | [Link](./modules/azure/container_registry)     |
 | `azurerm_log_analytics_workspace`| Module for creating Azure Log Analytics Workspaces               | [Link](./modules/azure/log_analytics_workspace)|
 | `azurerm_application_insights`   | Module for creating Azure Application Insights components        | [Link](./modules/azure/application_insights)   |
+| `azurerm_subnet_network_security_group_association` | Module for creating Azure Subnet ↔ NSG association | [Link](./modules/azure/subnet_network_security_group_association) |
+| `azurerm_subnet_route_table_association` | Module for creating Azure Subnet ↔ Route Table association | [Link](./modules/azure/subnet_route_table_association) |
+| `azurerm_private_dns_zone_virtual_network_link` | Module for creating Azure Private DNS Zone link to a Virtual Network | [Link](./modules/azure/private_dns_zone_virtual_network_link) |
+| `azurerm_postgresql_flexible_server` | Module for creating Azure PostgreSQL Flexible Server | [Link](./modules/azure/postgresql_flexible_server) |
+| `azurerm_mssql_server` | Module for creating Azure SQL Server | [Link](./modules/azure/mssql_server) |
+| `azurerm_cosmosdb_account` | Module for creating Azure Cosmos DB Account | [Link](./modules/azure/cosmosdb_account) |
+| `azurerm_redis_cache` | Module for creating Azure Redis Cache | [Link](./modules/azure/redis_cache) |
+| `azurerm_servicebus_namespace` | Module for creating Azure Service Bus Namespace | [Link](./modules/azure/servicebus_namespace) |
+| `azurerm_public_ip` | Module for creating Azure Public IP Address | [Link](./modules/azure/public_ip) |
+| `azurerm_nat_gateway` | Module for creating Azure NAT Gateway (with public IP / subnet associations) | [Link](./modules/azure/nat_gateway) |
+| `azurerm_lb` | Module for creating Azure Load Balancer (frontends, pools, probes, rules) | [Link](./modules/azure/lb) |
+| `azurerm_application_gateway` | Module for creating Azure Application Gateway | [Link](./modules/azure/application_gateway) |
+| `azurerm_bastion_host` | Module for creating Azure Bastion Host | [Link](./modules/azure/bastion_host) |
+| `azurerm_firewall` | Module for creating Azure Firewall | [Link](./modules/azure/firewall) |
+| `azurerm_eventhub_namespace` | Module for creating Azure Event Hub Namespace | [Link](./modules/azure/eventhub_namespace) |
+| `azurerm_eventgrid_topic` | Module for creating Azure Event Grid Topic | [Link](./modules/azure/eventgrid_topic) |
+| `azurerm_key_vault_secret` | Module for creating Azure Key Vault Secret | [Link](./modules/azure/key_vault_secret) |
 
 ### huaweicloud
 
